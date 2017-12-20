@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'jkhj^4whm!n^w-1x1=0ilx_eb9(&(z3%p8(9f&68h_0g=fghyb'
+SECRET_KEY = 'juj(j(n=vq0^!p9(2hf!q8e82s^+(cfq$!ks6mqw@*ix+r6b_@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"] # YOO~
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'main',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +75,7 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'blogDB',
         'USER': 'blog',
         'PASSWORD': 'blog',
